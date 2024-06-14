@@ -1,6 +1,6 @@
 class Autos {
     constructor(numerosm, marca, año, precio) {
-        this.#numerosm = numerosm;
+        this._numerosm = numerosm;
         this._merca = marca;
         this._año = año;
         this._precio = precio;
@@ -125,4 +125,4 @@ class Camioneta extends Autos {
     }
 }
 
-//mision tienfda ecomerce
+//mision tienda ecomerce

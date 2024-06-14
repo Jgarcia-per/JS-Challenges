@@ -4,12 +4,12 @@ console.log(numbers.length);
 
 favoriteFruits = ["grapefruit", "orange", "lemon"];
 favoriteFruits.push("tangerine");
-console.log (favoriteFruits)
+console.log (favoriteFruits);
 
 //longitud de las frutas
 let lengthOfFavoriteFruits = favoriteFruits.push("lime");
-console.log (favoriteFruits)
-console.log (lengthOfFavoriteFruits)
+console.log (favoriteFruits);
+console.log (lengthOfFavoriteFruits);
 
 //metodo splice para poner en un indice determinado
 // el primer numero empieza el indice y el segundo elimina
@@ -52,7 +52,7 @@ console.log(findIndex, findIndex2);
 //indicar desde que indice buscar
 arr8 = [ 2, 6, 7, 8 ];
 let findIndex3 = arr8.indexOf(6, 2);
-console.log(findIndex3)
+console.log(findIndex3);
 
 //buscar la ultima cosa del arreglo
 let animals = ["dog", "horse", "cat", "platypus", "dog"];
@@ -62,11 +62,11 @@ let lastDog = animals.lastIndexOf("dog");
 let names = ["James", "Alicia", "Fatiha", "Maria", "Bert"];
 names.sort();
 names.reverse();
-console.log(names)
+console.log(names);
 
 let ages = [18, 72, 33, 56, 40];
 ages.sort();
-console.log (ages)
+console.log (ages);
 
 
 //como almacenar arrays entres arrays
@@ -74,10 +74,8 @@ let someValues1 = [1, 2, 3];
 let someValues2 = [4, 5, 6];
 let someValues3 = [7, 8, 9];
 let arrOfArrays = [someValues1, someValues2, someValues3];
-console.log (arrOfArrays)
+console.log (arrOfArrays);
 
 //tambien se puede asi
 let arrOfArrays2 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
-console.log (arrOfArrays2)
-
-
+console.log (arrOfArrays2);
