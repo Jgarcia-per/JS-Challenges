@@ -3,8 +3,8 @@ Mediana = (n+1) / 2 → Media de las observaciones
 
 Cuando el número de observaciones es impar:
 Mediana = (n+1) / 2 → Valor de la observación*/
-//mediana
 
+//mediana
 var v=[], 
     t=Math.round((Math.random()*20-10)+10),
     a
@@ -32,8 +32,6 @@ if (v.length%2==0) {
     var Mediana=Math.round((v.length+1)/2)
     console.log("la mediano es "+v[Mediana-1])
 }
-
-
 
 //la moda
 let v=[], 

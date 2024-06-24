@@ -44,8 +44,7 @@ else {
     console.log ("El programa finalizo")
 } 
 
-
-let nom = ["Vane","Juan","Johan","Angie","Maicol","kate","Ana","Alfonso","Laura","Beos","Tatiana","Leandra","Alejandra","Esteban","Karol"]
+let nom = ["Vane","Juan","Johan","Angie","Maicol","Kate","Ana","Alfonso","Laura","Beos","Tatiana","Leandra","Alejandra","Esteban","Karol"]
     t3 = Math.round(Math.random()*nom.length)
 console.log(t3) 
 do {
